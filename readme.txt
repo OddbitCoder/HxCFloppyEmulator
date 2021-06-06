@@ -92,3 +92,10 @@ Build folder.
 de10-nano/FPGA based quad floppy simulator and floppy dumper/preservation tool.
 (Universal/Web based/network interfaces)
 -------------------------------------------------------------------------------
+How to build the command-line tool on Linux
+
+HxC/build$ make clean && make HxCFloppyEmulator_cmdline 
+
+Check available raw formats with: 
+HxC/build$ ./hxcfe -rawlist
+------------------------------------------------------------------------------- 
